@@ -433,7 +433,7 @@ No subas al repositorio:
 
 ## Licencia
 
-GPL.
+GPL-3.0.
 
 ## Autor
 
