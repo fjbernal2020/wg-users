@@ -14,7 +14,7 @@ from ipaddress import IPv4Address, IPv4Interface, IPv4Network
 from pathlib import Path
 # ---------------------------
 __author__ = 'Francisco Javier Bernal Domínguez'
-__license__ = 'GPL'
+__license__ = 'GPL-3.0'
 __version__ = '1.0.0'
 __status__ = 'Production'
 # ---------------------------
