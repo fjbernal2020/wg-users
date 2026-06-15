@@ -94,19 +94,19 @@ cd wireguard-users-manager
 Da permisos de ejecución al script:
 
 ```bash
-chmod +x wg_users_mejorado.py
+chmod +x wg_users.py
 ```
 
 Ejecuta el script:
 
 ```bash
-sudo ./wg_users_mejorado.py
+sudo ./wg_users.py
 ```
 
 O también:
 
 ```bash
-sudo python3 wg_users_mejorado.py
+sudo python3 wg_users.py
 ```
 
 ## Modo test
@@ -116,7 +116,7 @@ Si el script no se ejecuta como `root`, no usará `/etc/wireguard`.
 En su lugar, trabajará sobre el directorio actual:
 
 ```bash
-python3 wg_users_mejorado.py
+python3 wg_users.py
 ```
 
 En este modo se mostrará el texto:
@@ -390,7 +390,7 @@ Este proyecto no usa esa configuración por defecto.
 
 ```text
 wireguard-users-manager/
-├── wg_users_mejorado.py
+├── wg_users.py
 ├── README.md
 ├── LICENSE
 └── .gitignore
